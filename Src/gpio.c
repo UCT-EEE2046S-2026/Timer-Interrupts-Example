@@ -16,6 +16,10 @@ void Init_LEDs(void) {
 		);
 }
 
-void Set_LEDs(uint8_t value) {
+void Write_LEDs(uint8_t value) {
 	GPIOB->ODR = (GPIOB->ODR & ~0xFF) | value; // Set PB0-PB7 to value
+}
+
+void Toggle_LEDs(uint8_t pin_mask) {
+	GPIOB->ODR ^= pin_mask; // Toggle specified pins
 }

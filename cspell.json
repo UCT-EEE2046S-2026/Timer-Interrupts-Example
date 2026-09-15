@@ -3,7 +3,7 @@
   "ignorePaths": [],
   "dictionaryDefinitions": [],
   "dictionaries": [],
-  "words": ["AHBENR", "GPIOB", "GPIOBEN", "MODER"],
+  "words": ["AHBENR", "CMSIS", "GPIOB", "GPIOBEN", "MODER"],
   "ignoreWords": [],
   "import": []
 }
